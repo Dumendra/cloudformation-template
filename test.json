@@ -129,7 +129,7 @@
                     }
                 ],
                 "KeyName": {
-                    "Ref": "KeyPair"
+                    "Ref": "keyPair"
                 },
                 "UserData": {
                     "Fn::Base64": {
