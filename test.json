@@ -4,7 +4,8 @@
     "Parameters": {
         "KeyPair": {
             "Description": "Name of the keypair to use for SSH access",
-            "Type": "AWS::EC2::KeyPair::march"
+            "Type": "AWS::EC2::KeyPair::KeyName",
+            "Default": "march"
         }
     },
     "Resources": {
